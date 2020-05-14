@@ -63,7 +63,8 @@ public class Menu extends Account {
         System.out.println("Press 3 - Exit");
 
 
-        selection = textInput.nextInt();
+       // selection = textInput.nextInt();
+        doTextCheck();
 
 
         switch (selection) {
@@ -91,7 +92,8 @@ public class Menu extends Account {
         System.out.println("Press 4 - Exit");
         System.out.println("Choice: ");
 
-        selection = textInput.nextInt();
+        //C selection = textInput.nextInt();
+        doTextCheck();
 
         switch (selection) {
 
@@ -125,7 +127,8 @@ public class Menu extends Account {
         System.out.println("Press 4 - Exit");
         System.out.println("Choice: ");
 
-        selection = textInput.nextInt();
+       // C selection = textInput.nextInt();
+        doTextCheck();
 
         switch (selection) {
 
